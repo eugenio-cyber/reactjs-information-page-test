@@ -1,0 +1,28 @@
+.statement {
+    padding: 0 3px 5px 3px;
+    background: rgba(52, 137, 177, 0.1);
+}
+
+.statement__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statement__title {
+    font-size: 13px;
+    color: #707070;
+}
+
+.statement__icons {
+    margin-right: 5px;
+}
+
+.statement__gallery {
+    display: flex;
+    gap: 5px;
+}
+
+.statement__img {
+    width: 60px;
+}

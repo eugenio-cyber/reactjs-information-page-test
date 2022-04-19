@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 55px;
+    padding: 10px 41px;
+    margin-bottom: 34px;
+    background: #FFFFFF;
+}
+
+.main {
+    width: 894px;
+    margin-right: 31px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.top__buttons {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    gap: 8px;
+}
+
+.top__title {
+    font-weight: 300;
+    font-size: 35px;
+    color: #707070;
+}
+
+.btn--tipe {
+    all: unset;
+    display: flex;
+    gap: 40px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    border: 1px solid #B4B4B4;
+    background: #FFFFFF;
+}
+
+.btn--create {
+    all:unset;
+    display: flex;
+    gap: 32px;
+    padding: 11px 7px;
+    border-radius: 3px;
+    background: #3489B1;
+    color: #FFFFFF;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 11px 8px 8px 8px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    border-radius: 3px;
+    background: #FDFDFD;
+}
+
+.popup__title {
+    font-size: 16px;
+    color: #707070;
+}
