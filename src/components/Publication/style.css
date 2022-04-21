@@ -40,6 +40,33 @@
     color: #707070;
 }
 
+.publication__tag--release {
+    padding: 2px 4px;
+    margin-right: 6px;
+    font-size: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3489B1;
+}
+
+.publication__tag--event {
+    padding: 2px 4px;
+    margin-right: 6px;
+    font-size: 6px;
+    text-transform: uppercase;
+    color: #333333;
+    background: #EE8686;
+}
+
+.publication__tag--publication {
+    padding: 2px 4px;
+    margin-right: 6px;
+    font-size: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #707070;
+}
+
 .publication__description {
     font-size: 13px;
     color: #707070;

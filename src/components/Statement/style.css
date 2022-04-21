@@ -18,6 +18,13 @@
     margin-right: 5px;
 }
 
+.statement__icon {
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+}
+
 .statement__gallery {
     display: flex;
     gap: 5px;

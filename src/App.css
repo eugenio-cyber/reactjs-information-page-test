@@ -38,19 +38,27 @@
 .btn--tipe {
     all: unset;
     display: flex;
+    align-items: center;
     gap: 40px;
     padding: 10px 7px;
     border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
     border: 1px solid #B4B4B4;
+    color: #707070;
     background: #FFFFFF;
 }
 
 .btn--create {
     all:unset;
     display: flex;
+    align-items: center;
     gap: 32px;
     padding: 11px 7px;
     border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
     background: #3489B1;
     color: #FFFFFF;
 }
