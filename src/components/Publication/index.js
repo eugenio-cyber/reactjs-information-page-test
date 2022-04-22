@@ -1,4 +1,4 @@
-import more from "./more.png";
+import More from "./more.png";
 import "./style.css";
 
 export default function Publication({
@@ -45,7 +45,7 @@ export default function Publication({
           <p className="publication__description">{paragrafo}</p>
         </div>
       </div>
-      <img src={more} alt=""></img>
+      <img src={More} alt=""></img>
     </div>
   );
 }

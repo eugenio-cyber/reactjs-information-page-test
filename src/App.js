@@ -1,18 +1,26 @@
+// componentes
 import Publication from "./components/Publication";
 import Warning from "./components/Warning";
 import Statement from "./components/Statement";
-import logo from "./logo.png";
-import scroll from "./scroll.png";
-import add from "./add.png";
+
+// imagens
+import Logo from "./logo.png";
+import Scroll from "./scroll.png";
+import Add from "./add.png";
 import schedule from "./schedule.png";
-import data from "./data.json";
+
+// arquivo json
+import Data from "./data.json";
+import Management from "./management.json";
+
+// estilo
 import "./App.css";
 
 export default function App() {
   return (
     <body>
       <header className="header">
-        <img src={logo} alt=""></img>
+        <img src={Logo} alt=""></img>
       </header>
       <div className="container">
         <main className="main">
@@ -20,15 +28,15 @@ export default function App() {
             <h1 className="top__title">Endomarketing</h1>
             <div className="top__buttons">
               <button className="btn--tipe">
-                Tipo <img src={scroll} alt=""></img>
+                Tipo <img src={Scroll} alt=""></img>
               </button>
               <button className="btn--create">
-                Criar <img src={add} alt=""></img>
+                Criar <img src={Add} alt=""></img>
               </button>
             </div>
           </section>
           <section className="list">
-            {data.data.map((value) => {
+            {Data.data.map((value) => {
               return (
                 <Publication
                   imagem={value.file.url}
@@ -47,9 +55,14 @@ export default function App() {
           <Warning />
           <section className="popup">
             <h3 className="popup__title">Quadros de Gestão à Vistas</h3>
-            <Statement />
-            <Statement />
-            <Statement />
+
+            {Management.data.map((value) => {
+              return value.boards.map((iten) => {
+                return (
+                  <Statement titulo={iten.title} imagens={iten.resume_files} />
+                );
+              });
+            })}
           </section>
         </aside>
       </div>
