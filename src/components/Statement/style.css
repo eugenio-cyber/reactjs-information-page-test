@@ -33,3 +33,10 @@
 .statement__img {
     width: 60px;
 }
+
+@media (max-width: 880px) {
+    .statement__gallery {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}

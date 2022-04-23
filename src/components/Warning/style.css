@@ -30,3 +30,9 @@
     font-size: 13px;
     color: #707070;
 }
+
+@media (max-width: 880px) {
+    .warning {
+        width: 95%;
+    }
+}

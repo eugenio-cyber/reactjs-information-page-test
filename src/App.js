@@ -55,7 +55,6 @@ export default function App() {
           <Warning />
           <section className="popup">
             <h3 className="popup__title">Quadros de Gestão à Vistas</h3>
-
             {Management.data.map((value) => {
               return value.boards.map((iten) => {
                 return (
