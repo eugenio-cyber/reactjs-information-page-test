@@ -1,73 +1,77 @@
 .publication {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px 11px;
-    margin-bottom: 10px;
-    background: #FFFFFF;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 11px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.publication img {
+  cursor: pointer;
 }
 
 .publication__container {
-    display: flex;
+  display: flex;
 }
 
 .publication__more {
-    border-radius: 50%;
-    background: #DBDBDB;
+  border-radius: 50%;
+  background: #dbdbdb;
 }
 
 .publication__img {
-    width: 73px;
-    margin-right: 16px;
+  width: 73px;
+  margin-right: 16px;
 }
 
 .publication__title {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #707070;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #707070;
 }
 
 .publication__information {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .publication__subtitle {
-    font-size: 9px;
-    color: #707070;
+  font-size: 9px;
+  color: #707070;
 }
 
 .publication__tag--release {
-    padding: 2px 4px;
-    margin-right: 6px;
-    font-size: 6px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #3489B1;
+  padding: 2px 4px;
+  margin-right: 6px;
+  font-size: 6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #3489b1;
 }
 
 .publication__tag--event {
-    padding: 2px 4px;
-    margin-right: 6px;
-    font-size: 6px;
-    text-transform: uppercase;
-    color: #333333;
-    background: #EE8686;
+  padding: 2px 4px;
+  margin-right: 6px;
+  font-size: 6px;
+  text-transform: uppercase;
+  color: #333333;
+  background: #ee8686;
 }
 
 .publication__tag--publication {
-    padding: 2px 4px;
-    margin-right: 6px;
-    font-size: 6px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #707070;
+  padding: 2px 4px;
+  margin-right: 6px;
+  font-size: 6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #707070;
 }
 
 .publication__description {
-    font-size: 13px;
-    color: #707070;
+  font-size: 13px;
+  color: #707070;
 }

@@ -7,7 +7,6 @@ import Statement from "./components/Statement";
 import Logo from "./logo.png";
 import Scroll from "./scroll.png";
 import Add from "./add.png";
-import schedule from "./schedule.png";
 
 // arquivo json
 import Data from "./data.json";
@@ -19,23 +18,23 @@ import "./App.css";
 export default function App() {
   return (
     <body>
-      <header className="header">
-        <img src={Logo} alt=""></img>
+      <header className='header'>
+        <img src={Logo} alt='Logo da empresa'></img>
       </header>
-      <div className="container">
-        <main className="main">
-          <section className="top">
-            <h1 className="top__title">Endomarketing</h1>
-            <div className="top__buttons">
-              <button className="btn--tipe">
-                Tipo <img src={Scroll} alt=""></img>
-              </button>
-              <button className="btn--create">
-                Criar <img src={Add} alt=""></img>
-              </button>
+      <div className='container'>
+        <main className='main'>
+          <section className='top'>
+            <h1 className='top__title'>Endomarketing</h1>
+            <div className='top__buttons'>
+              <a href='/' className='btn--tipe'>
+                Tipo <img src={Scroll} alt=''></img>
+              </a>
+              <a href='/' className='btn--create'>
+                Criar <img src={Add} alt=''></img>
+              </a>
             </div>
           </section>
-          <section className="list">
+          <section className='list'>
             {Data.data.map((value) => {
               return (
                 <Publication
@@ -51,14 +50,14 @@ export default function App() {
             })}
           </section>
         </main>
-        <aside className="aside">
+        <aside className='aside'>
           <Warning />
-          <section className="popup">
-            <h3 className="popup__title">Quadros de Gestão à Vistas</h3>
+          <section className='popup'>
+            <h3 className='popup__title'>Quadros de Gestão à Vistas</h3>
             {Management.data.map((value) => {
-              return value.boards.map((iten) => {
+              return value.boards.map((item) => {
                 return (
-                  <Statement titulo={iten.title} imagens={iten.resume_files} />
+                  <Statement titulo={item.title} imagens={item.resume_files} />
                 );
               });
             })}
