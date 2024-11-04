@@ -7,10 +7,6 @@
 </p>
 <br>
 
-## 🔗 Quer acessar o projeto?
-
-Sem [link]() para acessar o projeto.
-
 ## 🏹 Qual o objetivo do projeto?
 
 Este projeto tem como objetivo solucionar um desafio Frontend para o processo seletivo com uso do ReactJS.
